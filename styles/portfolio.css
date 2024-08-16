@@ -1,38 +1,65 @@
 /* nav css */
-body{
+body {
     font-family: 'open sans';
 }
-nav{
+
+.header {
+    background-color: burlywood;
+}
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.text-primary{
-    color: red;
+    margin: 0 200px;
 }
 
-nav > ul{
+.text-primary {
+    color: orange;
+}
+
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
 
 
-.btn-primary{
-    color:#fff;
-    border-radius:5px ;
+.btn-primary {
+    color: #fff;
+    border-radius: 5px;
     background-color: orange;
-    border:0;
-    padding:10px ;
+    border: 0;
+    padding: 10px;
     font-weight: 700;
     font-size: 20px;
-    
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .banner .image-section {
+    background-image: url("images/developer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.banner .profile-picture {
+    width: 500px;
+    height: auto;
 }
