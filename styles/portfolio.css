@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: burlywood;
+    background-color: #f8f0f0;
 }
 
 nav {
@@ -46,20 +46,17 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("../images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
 }
 
-/* .banner .image-section {
-    background-image: url("images/developer.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .banner .profile-picture {
     width: 500px;
-    height: auto;
 }
