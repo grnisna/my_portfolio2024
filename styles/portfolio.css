@@ -55,6 +55,17 @@ nav a {
     background-repeat: no-repeat;
 
 }
+.banner-greeting{
+    font-size: 25px;
+    margin: 5px 0px;
+    font-weight: bolder;
+
+}
+
+.banner-title{
+    font-size: 55px;
+    margin: 5px 0px;
+}
 
 
 .banner .profile-picture {
