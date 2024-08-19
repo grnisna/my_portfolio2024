@@ -71,3 +71,53 @@ nav a {
 .banner .profile-picture {
     width: 500px;
 }
+
+/* main seciton  */
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* about section  */
+.about-section{
+    padding: 60px;
+    background-color: #f8e8e8;
+    margin: 50px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.about-section>h3{
+    font-size: 48px;
+    color: #000;
+}
+/* What I do section  */
+.What-I-Do-section{
+    padding: 60px;
+    background-color: #f8e8e8;
+    margin: 50px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.White-I-Do-info{
+    text-align: left;
+    padding: 15px;
+}
+
+.White-I-Do-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.What-I-Do-section>h3{
+    font-size: 48px;
+    color: #000;
+}
