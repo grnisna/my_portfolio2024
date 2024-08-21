@@ -121,3 +121,26 @@ main{
     font-size: 48px;
     color: #000;
 }
+
+/* resume section  */
+
+.resume-section{
+    background-color: #f8f0f0;
+    align-items: center;
+    padding: 20px 10px
+}
+.resume-description{
+    display: flex;
+    justify-content: space-between;
+;
+}
+.resume-title{
+    font-size: 30px;
+    text-align: center;
+}
+.education-area{
+    margin: 20px;
+}
+.experience-area{
+    margin: 20px;
+}
